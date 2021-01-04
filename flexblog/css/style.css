@@ -48,3 +48,45 @@ img {
     margin: 10px;
 }
 
+.menu-bg {
+    background: #2C70FF;
+}
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-logo a {
+    font-size: 2.25em;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.menu-nav a {
+    color: white;
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+
+}
+
+.menu-nav a:hover {
+    color:  #122ab2;
+}
+
+
+
+
